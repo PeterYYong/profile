@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kim, YoungSeok — Clinical AI Researcher | 김용석(닥터스톤)</title>
+
+  <!-- Tailwind Play CDN (dev only) -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dr. Kim Homepage — Biomedical AI Researcher">
+  <meta property="og:description" content="전남대학교병원 의생명연구원 연구원 · Biomedical AI · Radiomics · CT/qCT · AutoML">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:site_name" content="YS Kim — Profile">
+  <!-- For production, replace with a real hosted image URL -->
+  <meta property="og:image" content="about:blank">
+
+  <!-- Favicon (optional solid color) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%230ea5e9'/%3E%3Ctext x='16' y='21' font-size='16' text-anchor='middle' fill='white'%3EYS%3C/text%3E%3C/svg%3E">
+
+  <!-- Inter font (optional) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style> html,body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,'Apple Color Emoji','Segoe UI Emoji';} </style>
+
+  <!-- Structured data (JSON-LD: Person) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "YoungSeok Kim",
+    "alternateName": "김용석",
+    "jobTitle": "Clinical AI Researcher",
+    "worksFor": {"@type": "Organization", "name": "전남대학교병원 의생명연구원"},
+    "email": "mailto:Youngseok.kim0301@gmail.com",
+    "telephone": "010-4697-9372",
+    "address": {"@type":"PostalAddress","addressLocality":"광주광역시 광산구","addressCountry":"KR"},
+    "knowsAbout": ["Radiomics","Computed Tomography","AI in Medicine","AutoML","Clinical Validation"],
+    "alumniOf": [
+      {"@type":"CollegeOrUniversity","name":"전남대학교","sameAs":"https://www.jnu.ac.kr"},
+      {"@type":"CollegeOrUniversity","name":"인제대학교","sameAs":"https://www.inje.ac.kr"}],
+    "url": "https://example.com/profile"
+  }
+  </script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-sky-50 via-white to-emerald-50 text-slate-800 antialiased">
+  <header class="sticky top-0 z-30 backdrop-blur supports-[backdrop-filter]:bg-white/70 bg-white/80 border-b border-slate-200">
+    <div class="mx-auto max-w-6xl px-6 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <img alt="avatar" class="h-9 w-9 rounded-full ring-2 ring-sky-200" src="./stone_face.png"/>
+        <span class="font-semibold">Dr.Stone's homepage</span>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#about" class="hover:text-sky-700">About</a>
+        <a href="#experience" class="hover:text-sky-700">Experience</a>
+        <a href="#research" class="hover:text-sky-700">Research</a>
+        <a href="#skills" class="hover:text-sky-700">Skills</a>
+        <a href="#contact" class="hover:text-sky-700">Contact</a>
+      </nav>
+      <a href="mailto:Youngseok.kim0301@gmail.com" class="inline-flex items-center gap-2 rounded-xl bg-sky-600 px-4 py-2 text-white text-sm shadow hover:bg-sky-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-500">Email</a>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-6xl px-6">
+        <!-- Hero (LinkedIn-style header card) -->
+    <section id="hero" class="pt-10">
+      <div class="rounded-2xl bg-white ring-1 ring-slate-200 shadow-sm p-6">
+        <div class="flex items-center gap-6">
+          <img alt="김용석(닥터스톤) 캐릭터" class="h-32 w-28 md:h-40 md:w-32 rounded-xl object-contain ring-1 ring-slate-200 bg-white"
+               src="./stone.png"/>
+          <div class="min-w-0">
+            <h1 class="text-2xl md:text-3xl font-extrabold tracking-tight text-slate-900">김용석(닥터스톤)</h1>
+            <p class="text-slate-700 text-lg font-semibold">Kim, YoungSeok</p>
+            <p class="text-slate-700">Clinical AI Researcher / Ph.D. in Biomedical Engineering</p>
+            <p class="text-slate-600 text-sm mt-1">전남대학교병원 의생명연구원</p>
+            <div class="mt-3 flex flex-wrap gap-2 text-xs">
+              <span class="rounded-full bg-sky-50 text-sky-700 px-3 py-1 ring-1 ring-sky-200">Medical AI</span>
+              <span class="rounded-full bg-slate-50 text-slate-700 px-3 py-1 ring-1 ring-slate-200">인공지능</span>
+              <span class="rounded-full bg-emerald-50 text-emerald-700 px-3 py-1 ring-1 ring-emerald-200">진단모델</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="mt-16 grid md:grid-cols-2 gap-10">
+      <div class="space-y-4">
+        <h2 class="text-2xl font-bold">About</h2>
+        <p class="leading-relaxed text-slate-700">
+          10년 내 100만 명+ 긍정적 임팩트 창출을 목표<br>
+          의료영상 인공지능(Biomedical AI) 연구자. Radiomics, AutoML, CT/qCT 정량 영상분석을 활용해
+          COPD 선별과 폐기능 예측 등 임상 문제를 해결합니다. 재현성과 임상 적용을 중시하며 통계적 타당성과
+          외부 검증을 포함한 연구를 수행하고 있습니다.
+        </p>
+        <dl class="grid grid-cols-3 gap-y-2 text-sm">
+          <dt class="text-slate-500">Email</dt><dd class="col-span-2"><a href="mailto:Youngseok.kim0301@gmail.com" class="underline decoration-sky-400 underline-offset-2">Youngseok.kim0301@gmail.com</a></dd>
+          <dt class="text-slate-500">Phone</dt><dd class="col-span-2">010-4697-9372</dd>
+          <dt class="text-slate-500">Location</dt><dd class="col-span-2">광주광역시 광산구</dd>
+        </dl>
+      </div>
+      <div class="rounded-2xl bg-white p-6 ring-1 ring-slate-200 shadow-sm">
+        <h3 class="font-semibold mb-3">Quick Facts</h3>
+        <ul class="grid grid-cols-2 gap-3 text-sm">
+          <li class="rounded-xl bg-slate-50 p-3">경력: 지멘스헬시니어스 10+년</li>
+          <li class="rounded-xl bg-slate-50 p-3">임상 연구: CNUH · 2025–</li>
+          <li class="rounded-xl bg-slate-50 p-3">전문: Radiomics · AutoML</li>
+          <li class="rounded-xl bg-slate-50 p-3">툴: Python · scikit-learn · TensorFlow</li>
+        </ul>
+        <!-- <p class="mt-3 text-xs text-slate-500">* 이력서 기반 요약</p> -->
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="mt-16">
+      <h2 class="text-2xl font-bold mb-6">Experience</h2>
+      <div class="space-y-4">
+        <article class="rounded-2xl bg-white p-5 ring-1 ring-slate-200 shadow-sm">
+          <header class="flex items-center justify-between flex-wrap gap-2">
+            <h3 class="font-semibold">전남대학교병원 의생명연구원 — 연구원</h3>
+            <span class="text-xs text-slate-600">2025.06 – 현재</span>
+          </header>
+          <p class="text-sm mt-2 text-slate-700">인공지능 임상 분석 연구 수행 (Radiology / Biomedical AI).</p>
+        </article>
+        <article class="rounded-2xl bg-white p-5 ring-1 ring-slate-200 shadow-sm">
+          <header class="flex items-center justify-between flex-wrap gap-2">
+            <h3 class="font-semibold">지멘스헬시니어스(주) — 엔지니어</h3>
+            <span class="text-xs text-slate-600">2014.04 – 2025.06</span>
+          </header>
+          <p class="text-sm mt-2 text-slate-700">CT, SPECT 시스템 현장 지원 및 품질 보증.</p>
+        </article>
+        <article class="rounded-2xl bg-white p-5 ring-1 ring-slate-200 shadow-sm">
+          <header class="flex items-center justify-between flex-wrap gap-2">
+            <h3 class="font-semibold">한국보건산업진흥원 — 연구보조원</h3>
+            <span class="text-xs text-slate-600">2013.10 – 2014.03</span>
+          </header>
+          <p class="text-sm mt-2 text-slate-700">의료기기종합정보시스템 구축·기획/관리.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Research -->
+    <section id="research" class="mt-16">
+      <h2 class="text-2xl font-bold mb-6">Research Highlights</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <article class="rounded-2xl bg-white p-5 ring-1 ring-slate-200 shadow-sm">
+          <h3 class="font-semibold">CT·Radiomics 기반 COPD 선별 파이프라인</h3>
+          <p class="text-sm mt-2 text-slate-700">AutoML과 Radiomics를 통해 폐기능(PFT) 예측 및 COPD 선별 파이프라인 개발 (박사 연구, 2021–2023).</p>
+          <ul class="mt-3 text-sm list-disc pl-5 text-slate-700">
+            <li>반복 CV · 외부검증 설계</li>
+            <li>특징 선택 · 모델 엔삼블</li>
+          </ul>
+        </article>
+        <article class="rounded-2xl bg-white p-5 ring-1 ring-slate-200 shadow-sm">
+          <h3 class="font-semibold">3D CT 기반 기도 직경/벽두께 자동 정량화</h3>
+          <p class="text-sm mt-2 text-slate-700">COPD 환자 대상 정량 영상 바이오마커 개발 (석사 연구, 2016–2018).</p>
+          <ul class="mt-3 text-sm list-disc pl-5 text-slate-700">
+            <li>qCT · 3D Slicer 파이프라인</li>
+            <li>영상-임상 지표 상관 분석</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="mt-16">
+      <h2 class="text-2xl font-bold mb-6">Skills</h2>
+      <div class="grid md:grid-cols-3 gap-4 text-sm">
+        <ul class="rounded-2xl bg-white p-5 ring-1 ring-slate-200 shadow-sm">
+          <li class="font-semibold mb-2">AI / ML</li>
+          <li>딥러닝·모델개발/검증</li>
+          <li>AutoML</li>
+          <li>Feature engineering</li>
+          <li>성능 최적화 · 회귀 · 가설검정</li>
+        </ul>
+        <ul class="rounded-2xl bg-white p-5 ring-1 ring-slate-200 shadow-sm">
+          <li class="font-semibold mb-2">Skills</li>
+          <li>CT/qCT · 3D 영상 분석</li>
+          <li>3D Slicer · Aview</li>
+          <li>SPSS · 통계분석</li>
+        </ul>
+        <ul class="rounded-2xl bg-white p-5 ring-1 ring-slate-200 shadow-sm">
+          <li class="font-semibold mb-2">Software</li>
+          <li>Python<br>
+            (NumPy · Pandas · scikit-learn · TensorFlow)</li>
+          <li>재현성, 임상적용, 설명가능성</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="mt-16 mb-24">
+      <h2 class="text-2xl font-bold mb-4">Contact</h2>
+      <div class="rounded-2xl bg-white p-6 ring-1 ring-slate-200 shadow-sm">
+        <p class="text-slate-700 text-sm">협업/세미나/자문 문의는 이메일로 연락 주세요.</p>
+        <div class="mt-4 flex flex-wrap gap-3">
+          <a href="mailto:Youngseok.kim0301@gmail.com" class="rounded-xl bg-sky-600 px-4 py-2 text-white text-sm shadow hover:bg-sky-700">이메일 보내기</a>
+          <a href="#" class="rounded-xl bg-white px-4 py-2 text-sm ring-1 ring-slate-300 hover:bg-slate-50">CV (PDF)</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="border-t border-slate-200 bg-white/70">
+    <div class="mx-auto max-w-6xl px-6 py-6 text-xs text-slate-600">
+      © YoungSeok Kim. Built with Tailwind CSS Play CDN (dev). Replace with CLI/Vite for production.
+    </div>
+  </footer>
+</body>
+</html>
