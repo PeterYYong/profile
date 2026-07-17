@@ -30,7 +30,6 @@ My current work centers on CT–PFT research, but I am also interested in contri
 - **CT Customer Service Engineer, Siemens Healthineers Korea** — Apr 2014–Jun 2025  
   CT installation, maintenance, preventive service, quality control, software updates, and hospital-site technical support.
 - **Ph.D. in Biomedical Engineering, Chonnam National University** — Feb 2024
-<!-- Retain the next line only after confirming that the current formal appointment and dates remain accurate. -->
 - **Researcher, Biomedical Research Institute, Chonnam National University Hospital** — Jun 2025–Present
 
 ## Publication and Conference Presentation
