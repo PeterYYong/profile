@@ -53,7 +53,7 @@ Structured training and experiments in machine learning and deep learning, inclu
 ## Repository Guide
 
 - **Medical Imaging Research** — De-identified research documentation and reproducible code only; no patient-level clinical data are published.
-- **Applied Deep Learning Training** — [Curated AIFFEL coursework and experiments](https://github.com/PeterYYong/AIFFEL_quest_rs), labeled by provenance and contribution.
+- **Applied Deep Learning Training** — [Curated AIFFEL coursework and experiments](https://github.com/PeterYYong/aiffel-applied-deep-learning-portfolio), labeled by provenance and contribution.
 - **Research Software and Applications** — Selected tools demonstrating data, model, and deployment workflows.
 
 > Repository presence does not by itself indicate sole authorship. Course baselines, team projects, and individual work are labeled explicitly in each project README.
